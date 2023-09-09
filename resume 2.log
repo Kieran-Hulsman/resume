@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.22)  22 JUN 2023 02:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.22)  9 SEP 2023 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/kieranhulsman/Desktop/resume/resume
-(/Users/kieranhulsman/Desktop/resume/resume.tex
+**"/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume"
+(/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -312,7 +312,7 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \mc@col@check@num=\count285
 )
 
-/Users/kieranhulsman/Desktop/resume/resume.tex:23: Package fontawesome5 Error: Incompatible version of Font Awesome already
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:23: Package fontawesome5 Error: Incompatible version of Font Awesome already
 (fontawesome5)                loaded
 
 For immediate help type H <return>.
@@ -376,60 +376,78 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 \ULC@box=\box103
 Package: ulem 2019/11/18
 \ULdepth=\dimen170
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen171
+\Gin@req@width=\dimen172
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
 No file resume.aux.
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
-\scratchdimen=\dimen171
+\scratchdimen=\dimen173
 \scratchbox=\box104
 \nofMPsegments=\count288
 \nofMParguments=\count289
 \everyMPshowfont=\toks25
 \MPscratchCnt=\count290
-\MPscratchDim=\dimen172
+\MPscratchDim=\dimen174
 \MPnumerator=\count291
 \makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks26
-)
-Package hyperref Info: Link coloring OFF on input line 128.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring OFF on input line 132.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
 
-/Users/kieranhulsman/Desktop/resume/resume.tex:140: Missing number, treated as zero.
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:138: Missing number, treated as zero.
 <to be read again> 
                    \protect 
-l.140     \Large \textwidth \textsl
+l.138     \Large \textwidth \textsl
                                    {Software Engineering Student}\\
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-/Users/kieranhulsman/Desktop/resume/resume.tex:140: Illegal unit of measure (pt inserted).
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:138: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \protect 
-l.140     \Large \textwidth \textsl
+l.138     \Large \textwidth \textsl
                                    {Software Engineering Student}\\
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -438,19 +456,20 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 144.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 144.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 144.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 144.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-/Users/kieranhulsman/Desktop/resume/resume.tex:157: Misplaced \noalign.
+contour: Using 16 copies for `linkedin.com/in/kieranhulsman' on input line 141.
+contour: Using 16 copies for `github.com/Kieran-Hulsman' on input line 142.
+contour: Using 16 copies for `kieran.hulsman@uwaterloo.ca' on input line 143.
+contour: Using 16 copies for `kieranhulsman.com' on input line 144.
+contour: Using 16 copies for `647-619-1335' on input line 145.
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:150: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.150 \hline
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:157: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
 l.157 \hline
@@ -458,47 +477,108 @@ l.157 \hline
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-/Users/kieranhulsman/Desktop/resume/resume.tex:164: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.164 \hline
-            
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 167.
+(Font)              using `OT1/cmr/bx/n' instead on input line 160.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 171.
+(Font)              <10.95> on input line 168.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 171.
+(Font)              <8> on input line 168.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 171.
+(Font)              <6> on input line 168.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 168.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 168.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 187.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 168.
 
+contour: Using 16 copies for `believeco:partners' on input line 168.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 170.
+contour: Using 16 copies for `openPyXL Python library' on input line 170.
+contour: Using 16 copies for `Excel' on input line 170.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 171.
+contour: Using 16 copies for `Excel' on input line 171.
+contour: Using 16 copies for `2000+' on input line 171.
+contour: Using 16 copies for `Code Ninjas' on input line 179.
+contour: Using 16 copies for `15 staff members' on input line 181.
+contour: Using 16 copies for `0 to 100+ clients' on input line 182.
+contour: Using 16 copies for `600 sales calls' on input line 182.
+contour: Using 16 copies for `30 devices' on input line 183.
+contour: Using 16 copies for `100+' on input line 185.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 216--218
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 198--200
 []  
  []
 
-contour: Using 16 copies for `git' on input line 219.
+contour: Using 16 copies for `accuracy rate of 90\%' on input line 200.
+contour: Using 16 copies for `Git version control' on input line 201.
+contour: Using 16 copies for `39 commits' on input line 201.
+contour: Using 16 copies for `AWS IoT' on input line 202.
+contour: Using 16 copies for `ultrasonic sensors' on input line 202.
+contour: Using 16 copies for `AWS Lambda' on input line 203.
+contour: Using 16 copies for `Python' on input line 203.
+contour: Using 16 copies for `Raspberry Pi' on input line 203.
+contour: Using 16 copies for `DynamoDB' on input line 204.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 228--230
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 212--214
 []  
  []
 
+contour: Using 16 copies for `Java' on input line 214.
+contour: Using 16 copies for `object-oriented programming' on input line 215.
+contour: Using 16 copies for `multi-threading' on input line 216.
+contour: Using 16 copies for `encryption algorithm' on input line 217.
+contour: Using 16 copies for `input/output' on input line 217.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 238--240
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 224--226
 []  
  []
 
+contour: Using 16 copies for `Formula Electric Design Team' on input line 239.
+contour: Using 16 copies for `MISRA-C' on input line 241.
+contour: Using 16 copies for `300 contributors' on input line 242.
+contour: Using 16 copies for `CAN' on input line 243.
+contour: Using 16 copies for `Engineering Society' on input line 249.
+contour: Using 16 copies for `150-person cohort' on input line 251.
+contour: Using 16 copies for `\$8000' on input line 252.
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:286: You can't use `macro parameter character #' in restricted horizontal mode.
+<argument>  Python,Java,JavaScript,C++,C##
+                                          ,Ruby,Go,Swift,Kotlin,PHP,Rust,Typ...
+l.286     MySQL,PostgreSQL,MongoDB}
+                                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 250.
+/Users/kieranhulsman/Documents/waterloo/*co-op/co-op 2/resume/resume/resume.tex:286: You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ...a,Lisp,Prolog,Scheme,Tcl,Delphi, F##
+                                                  ,Elixir,Erlang,PL/SQL,SAS,...
+l.286     MySQL,PostgreSQL,MongoDB}
+                                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Overfull \hbox (1.03703pt too wide) in paragraph at lines 286--317
+[][] 
+ []
+
+
+Overfull \hbox (3.75166pt too wide) in paragraph at lines 286--317
+[]  
+ []
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -507,7 +587,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}] (./resume.aux)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -518,21 +598,21 @@ Package rerunfilecheck Warning: File `resume.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `resume.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  94A753537516B99D4C1F64BC42EDD50E;387.
+(rerunfilecheck)             After:  CFADBB435A8DDAA49C61D1B632607263;387.
  ) 
 Here is how much of TeX's memory you used:
- 15306 strings out of 476025
- 263433 string characters out of 5790017
- 1893388 words of memory out of 5000000
- 35568 multiletter control sequences out of 15000+600000
- 519767 words of font info for 60 fonts, out of 8000000 for 9000
+ 15639 strings out of 476025
+ 269988 string characters out of 5790017
+ 1988388 words of memory out of 5000000
+ 35879 multiletter control sequences out of 15000+600000
+ 519791 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,331b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 125235 bytes).
+ 75i,11n,76p,366b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb>
+Output written on resume.pdf (1 page, 135180 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
