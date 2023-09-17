@@ -151,10 +151,10 @@
 \vspace{6pt}
 \hline
 \vspace{5pt}
-\textbf{Languages: } C/C++, Python, Java, JavaScript, HTML/CSS, Bash, Scala, Assembly, VHDL
+\textbf{Languages: } Python, C/C++, Java, JavaScript, TypeScript, HTML/CSS, Bash, Scala, Assembly, VHDL
 
 \vspace{1pt}
-\textbf{Technologies: } Git, AWS, Unix/Linux, Excel, OpenPyXL, LaTeX, MISRA-C, GTest, Valgrind
+\textbf{Technologies: } Git, AWS, Unix/Linux, React, REST APIs, Excel, OpenPyXL, MISRA-C, GTest, GCC, Valgrind
 \vspace{3pt}
 \hline
 
@@ -162,13 +162,13 @@
 \section{Education}
     \resumeSubHeadingListStart
         \resumeSubheading
-        {University of Waterloo}{Sep. 2022 -- Present}
+        {University of Waterloo}{Sep. 2022 -- Apr. 2026}
         {Bachelor of Software Engineering, Honours (BSE)}{Waterloo, Ontario}
         \resumeItemListStart
             \resumeItem{\textbf{cGPA: 89.6\% (3.9/4.0)}}
-            \resumeItem{\textbf{Dean's Honours List}: awarded in terms 1A \& 1B}
+            \resumeItem{\textbf{Dean's Honours}: awarded in terms 1A \& 1B for academic distinction}
+            % \resumeItem{Class representative: Mathematics Society (1A), Engineering Society (1B), Software Engineering Society (2A)}
             \resumeItem{Relevant coursework: data structures and algorithms, compilers, digital computation}
-            \resumeItem{President's Scholarship of Distinction: awarded to students upon admissions for academic excellence in high school}
         \resumeItemListEnd
     \resumeSubHeadingListEnd
 
@@ -183,8 +183,8 @@
     {\raisebox{-0.2\height}\faExternalLink\ \brokenUL{believeco:partners}}}
     {Toronto, Ontario (part-time, remote)}
     \resumeItemListStart
-        \resumeItem{Employed the \textbf{openPyXL} Python library to automate data validation and amalgamation of client lists in \textbf{Excel}}
-        \resumeItem{Wrote scripts to comb through \textbf{Excel} sheets, and updated \textbf{2000+} clients in Function Point and QuickBooks Online}
+        \resumeItem{Employed the \textbf{openPyXL Python} library to automate data validation and amalgamation of client lists in \textbf{Excel}}
+        \resumeItem{Developed scripts to comb through \textbf{Excel} sheets and update \textbf{2000+} clients in Function Point and QuickBooks Online}
     \resumeItemListEnd
 
     \resumeSubheading
@@ -194,15 +194,14 @@
     {\raisebox{-0.2\height}\faExternalLink\ \brokenUL{Code Ninjas}}}
     {Aurora, Ontario (full-time, on-site)}
     \resumeItemListStart
-        \resumeItem{Served as a lead instructor, supporting the management of \textbf{15 staff members} in their day-to-day operations}
-        \resumeItem{Played a pivotal role in driving company growth from \textbf{0 to 100+ clients} by conducting over \textbf{600 sales calls}}
-        \resumeItem{Responsible for the setup and maintenance of \textbf{30 devices}, ensuring the smooth IT operations of the business}
+        \resumeItem{Served as lead instructor, supporting the management of \textbf{15 staff members} in their day-to-day operations}
         \resumeItem{Led \textbf{100+} educational coding sessions for children aged 5-14, teaching object-oriented programming, JavaScript and Lua}
-        \resumeItem{Established and implemented the franchise's adminsitrative systems as the business' first full-time employee}
+        \resumeItem{Played a pivotal role in driving company growth from \textbf{0 to 100+ clients} by conducting over \textbf{600 sales calls}}
+        \resumeItem{Ensured the smooth IT operations of the business by setting-up and maintaining the fleet of over \textbf{30 devices}}
     \resumeItemListEnd
 
     \resumeSubHeadingListEnd
-    \vspace{-16pt}
+    % \vspace{-16pt}
 
 %-----------PROJECTS-----------
 \section{Projects}
@@ -210,16 +209,28 @@
     \resumeSubHeadingListStart
         \resumeProjectHeading
             {\href{https://github.com/nihalmenon/foralltimes}
-            {\raisebox{-0.1\height}\faExternalLink\ \textbf{ForAllTimes - Lounge Traffic Monitor}} $|$ \normalEMPH{Python, JavaScript, AWS, HTML/CSS, Git, Raspberry Pi}}
+            {\raisebox{-0.1\height}\faExternalLink\ \textbf{ForAllTimes - Lounge Traffic Monitor}} $|$ \normalEMPH{AWS, Python, Node.js, JavaScript, Git, HTML/CSS, Raspberry Pi}}
             {} % date
             \resumeItemListStart
-                \resumeItem{Developed a traffic counter with an accuracy rate of \textbf{90\%}, enhancing student's ability to find quiet study spots}
-                \resumeItem{Registered a Raspberry Pi as an \textbf{AWS IoT} device to send entry/exit data from our \textbf{ultrasonic sensors} to DynamoDB}
-                \resumeItem{Integrated \textbf{DynamoDB} with Node.js backend to track the number of students in the lounge with CRUD functionality}
-                \resumeItem{Implemented an \textbf{AWS Lambda} function in \textbf{Python} to process data from the \textbf{Raspberry Pi} and update the database}
-                \resumeItem{Collaborated with the team using \textbf{Git} version control, contributing \textbf{39 commits} to our project's repository}
+                \resumeItem{Developed a traffic counter with an accuracy rate of \textbf{90\%}, making it easier to find quiet places to study}
+                \resumeItem{Implemented an \textbf{AWS Lambda} function in \textbf{Python} to process data from a \textbf{Raspberry Pi} and update DynamoDB}
+                \resumeItem{Integrated \textbf{DynamoDB} with \textbf{Node.js} backend to track the number of students in the lounge with CRUD functionality}
+                \resumeItem{Registered a Raspberry Pi as an \textbf{AWS IoT} device to send entry/exit data from \textbf{ultrasonic sensors} to AWS}
             \resumeItemListEnd
       
+            \vspace{-13pt}
+
+            \resumeProjectHeading
+            {\href{https://devpost.com/software/renterloo-s9xvmr}
+            {\raisebox{-0.1\height}\faExternalLink\ \textbf{RenterLoo - Hack the North}}
+            $|$ \normalEMPH{Node.js, React, TypeScript, JavaScript, AWS, Python, Git, CSS, REST APIs}}
+            {} % date
+            \resumeItemListStart
+                \resumeItem{Collaborated within a team to create a student subletting platform aimed at addressing housing shortages in Waterloo}
+                \resumeItem{Built \textbf{React} components to display lease postings fetched from \textbf{Node.js} backend, ensuring a seamless user experience}
+                \resumeItem{Implemented \textbf{RESTful APIs} using AWS Lambda functions in \textbf{Python} to update and retrieve data from \textbf{DynamoDB}}
+            \resumeItemListEnd 
+
             \vspace{-13pt}
 
             \resumeProjectHeading
@@ -227,24 +238,14 @@
             {\raisebox{-0.1\height}\faExternalLink\ \textbf{Hangman Game}} $|$ \normalEMPH{Java}}
             {} % date
             \resumeItemListStart
-                \resumeItem{Developed a terminal-based hangman game using \textbf{Java}, incorporating colourful output and sound effects}
+                \resumeItem{Developed a terminal-based hangman game in \textbf{Java}, incorporating colourful output and sound effects}
+                \resumeItem{Enhanced user experience by leveraging \textbf{multi-threading} to optimize graphics performance and reduce lag}
+                \resumeItem{Devised a shift cipher \textbf{encryption algorithm} encorporating file \textbf{input/output} (I/O) to conceal phrases from user}
                 \resumeItem{Implemented \textbf{object-oriented programming} techniques to effectively organize code and improve maintainability}
-                \resumeItem{Enhanced user experience by optimizing graphics performance through the implementation of \textbf{multi-threading}}
-                \resumeItem{Developed a shift cipher \textbf{encryption algorithm} using file \textbf{input/output} (I/O) to conceal phrases from the user}
             \resumeItemListEnd 
-            \vspace{-13pt}
           
-            \resumeProjectHeading
-            {\href{https://devpost.com/software/betreel}
-            {\raisebox{-0.1\height}\faExternalLink\ \textbf{BeTreel - 1st Place, The Golden Hack}}
-            $|$ \normalEMPH{JavaScript, HTML/CSS, Git}}
-            {} % date
-            \resumeItemListStart
-            \resumeItem{Developed a social media webpage resembling BeReal, providing daily user notifications for an engaging experience}
-            \resumeItem{Encouraged users to share eco-friendly activities, fostering social accountability for a sustainable impact}
-          \resumeItemListEnd 
     \resumeSubHeadingListEnd
-\vspace{-15pt}
+% \vspace{-15pt}
 
 %-----------EXTRACURRICULARS---------------
 \section{Extracurriculars}
@@ -255,9 +256,9 @@
         {\href{https://waterlooformulaelectric.com}{\raisebox{-0.2\height}\faExternalLink\ \brokenUL{Formula Electric Design Team}}}
         {University of Waterloo}
             \resumeItemListStart
-                \resumeItem{Reduced the risk of unexpected behaviour by utilizing \textbf{MISRA-C} lint tools, ensuring code reliability}
-                \resumeItem{Collaborated with other students on a code base of over \textbf{300 contributors}, developing familiarity with version control}
-                \resumeItem{Enhanced the car's error handling by leveraging \textbf{CAN} signals to communicate error messages across 6 different boards}
+                \resumeItem{Developed familiarity with version control and \textbf{Git CLI} commands by working in a code base with \textbf{300+ contributors}}
+                \resumeItem{Enhanced the car's error handling capabilities by leveraging \textbf{CAN} signals to broadcast error messages across 6 boards}
+                \resumeItem{Reduced the risk of unexpected behaviour by utilizing \textbf{MISRA-C} lint tools to increase code reliability}
             \resumeItemListEnd
         \resumeSubheading
         {Software Engineering Class Representative}
@@ -265,8 +266,8 @@
         {\href{https://www.engsoc.uwaterloo.ca}{\raisebox{-0.2\height}\faExternalLink\ \brokenUL{Engineering Society}}}
         {University of Waterloo}
             \resumeItemListStart
-                \resumeItem{Advocated for my \textbf{150-person cohort} within the Engineering faculty, actively participating in policy discussions}
-                \resumeItem{Served on the Sponsorship Allocation Committee, distributing over \textbf{\$8000} in funding to student design teams}
+                \resumeItem{Advocated for my \textbf{150-person cohort} within the Engineering faculty by actively participating in policy debates}
+                \resumeItem{Served on the Sponsorship Allocation Committee and distributed over \textbf{\$8000} in funding to student design teams}
             \resumeItemListEnd
     \resumeSubHeadingListEnd
 
