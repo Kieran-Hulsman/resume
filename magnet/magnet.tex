@@ -1,0 +1,274 @@
+%-------------------------
+% Kieran Hulsman
+% co-op 2 resume - magnet (says 4 month term in red)
+% sep 2023
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage{contour}
+\usepackage{ulem}
+\usepackage{setspace}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------
+% underlining
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\brokenUL}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\newcommand{\boldEMPH}[1]{\textbf{\brokenUL{#1}}} % technology emphasis: broken underlines and bolds
+\newcommand{\normalEMPH}[1]{\normalem\emph{#1}} % same as \emph{} under normal conditions (without pkg ulem)
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------LANGUAGES & TECHNOLOGIES----------
+\begin{center}
+    \Huge \textbf{Kieran Hulsman} \\
+    \large \textwidth \textsl{Software Engineering Student \color{red} (4 month availability Jan - Apr 2024)}\\
+    \vspace{18pt}
+    \small
+    \href{https://linkedin.com/in/kieranhulsman/}
+    {\faLinkedinSquare\ linkedin.com/in/kieranhulsman} ~
+    \href{https://github.com/Kieran-Hulsman/}
+    {\faGithub\ github.com/Kieran-Hulsman} ~
+    \href{mailto:kieran.hulsman@uwaterloo.ca}
+    {\faEnvelope\ kieran.hulsman@uwaterloo.ca} ~ 
+    \href{https://kieranhulsman.com}
+    {\faCode\ kieranhulsman.com} ~
+    \vspace{-18pt}
+\end{center}
+
+\vspace{6pt}
+\hline
+\vspace{5pt}
+\textbf{Languages: } Python, C/C++, Java, JavaScript, TypeScript, HTML/CSS, Bash, Scala, Assembly, VHDL
+
+\vspace{1pt}
+\textbf{Technologies: } Git, AWS, Unix/Linux, Node.js, React, Excel, OpenPyXL, MISRA-C, GTest, Valgrind
+\vspace{3pt}
+\hline
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Data Analyst Intern}
+    {Jun. 2023 -- Aug. 2023}
+    {\href{https://believecopartners.com}
+    {\raisebox{-0.2\height}\faExternalLink\ \brokenUL{believeco:partners}}}
+    {Toronto, Ontario (part-time, remote)}
+    \resumeItemListStart
+        \resumeItem{Employed the \textbf{openPyXL Python} library to automate data validation and amalgamation of client lists in \textbf{Excel}}
+        \resumeItem{Developed scripts to comb through \textbf{Excel} sheets and update \textbf{2000+} clients in Function Point and QuickBooks Online}
+    \resumeItemListEnd
+
+    \resumeSubheading
+    {Lead Coding Instructor}
+    {Apr. 2023 -- Aug. 2023}
+    {\href{https://codeninjas.com}
+    {\raisebox{-0.2\height}\faExternalLink\ \brokenUL{Code Ninjas}}}
+    {Aurora, Ontario (full-time, on-site)}
+    \resumeItemListStart
+        \resumeItem{Served as lead instructor, supporting the management of \textbf{15 staff members} in their day-to-day operations}
+        \resumeItem{Led \textbf{100+} educational coding sessions for children aged 5-14, teaching object-oriented programming, JavaScript and Lua}
+        \resumeItem{Played a pivotal role in driving company growth from \textbf{0 to 100+ clients} by conducting over \textbf{600 sales calls}}
+        \resumeItem{Ensured the smooth IT operations of the business by setting-up and maintaining the fleet of over \textbf{30 devices}}
+    \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+    % \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\href{https://github.com/nihalmenon/foralltimes}
+            {\raisebox{-0.1\height}\faExternalLink\ \textbf{ForAllTimes - Lounge Traffic Monitor}} $|$ \normalEMPH{AWS, Python, Node.js, JavaScript, Git, HTML/CSS, Raspberry Pi}}
+            {} % date
+            \resumeItemListStart
+                \resumeItem{Developed a traffic counter with an accuracy rate of \textbf{90\%}, making it easier to find quiet places to study}
+                \resumeItem{Implemented an \textbf{AWS Lambda} function in \textbf{Python} to process data from a \textbf{Raspberry Pi} and update DynamoDB}
+                \resumeItem{Integrated \textbf{DynamoDB} with \textbf{Node.js} backend to track the number of students in the lounge with CRUD functionality}
+                \resumeItem{Registered a Raspberry Pi as an \textbf{AWS IoT} device to send entry/exit data from \textbf{ultrasonic sensors} to AWS}
+            \resumeItemListEnd
+      
+            \vspace{-13pt}
+
+            \resumeProjectHeading
+            {\href{https://devpost.com/software/renterloo-s9xvmr}
+            {\raisebox{-0.1\height}\faExternalLink\ \textbf{RenterLoo - Hack the North}}
+            $|$ \normalEMPH{Node.js, React, TypeScript, JavaScript, AWS, Python, Git, CSS, REST APIs}}
+            {} % date
+            \resumeItemListStart
+                \resumeItem{Collaborated within a team to create a student subletting platform aimed at addressing housing shortages in Waterloo}
+                \resumeItem{Built \textbf{React} components to display lease postings fetched from \textbf{Node.js} backend, ensuring a seamless user experience}
+                \resumeItem{Implemented \textbf{RESTful APIs} using AWS Lambda functions in \textbf{Python} to update and retrieve data from \textbf{DynamoDB}}
+            \resumeItemListEnd 
+
+            \vspace{-13pt}
+
+            \resumeProjectHeading
+            {\href{https://github.com/kieran-hulsman/hangman}
+            {\raisebox{-0.1\height}\faExternalLink\ \textbf{Hangman Game}} $|$ \normalEMPH{Java}}
+            {} % date
+            \resumeItemListStart
+                \resumeItem{Developed a terminal-based hangman game in \textbf{Java}, incorporating colourful output and sound effects}
+                \resumeItem{Enhanced user experience by leveraging \textbf{multi-threading} to optimize graphics performance and reduce lag}
+                \resumeItem{Devised a shift cipher \textbf{encryption algorithm} encorporating file \textbf{input/output} (I/O) to conceal phrases from user}
+                \resumeItem{Implemented \textbf{object-oriented programming} techniques to effectively organize code and improve maintainability}
+            \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+% \vspace{-15pt}
+
+%-----------EXTRACURRICULARS---------------
+\section{Extracurriculars}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+        {Firmware Developer $|$ \textnormal{\normalem\emph{C, Git}}}
+        {Sep. 2022 -- Apr. 2023}
+        {\href{https://waterlooformulaelectric.com}{\raisebox{-0.2\height}\faExternalLink\ \brokenUL{Formula Electric Design Team}}}
+        {University of Waterloo}
+            \resumeItemListStart
+                \resumeItem{Developed familiarity with version control and \textbf{Git CLI} commands by working in a code base with \textbf{300+ contributors}}
+                \resumeItem{Enhanced the car's error handling capabilities by leveraging \textbf{CAN} signals to broadcast error messages across 6 boards}
+                \resumeItem{Reduced the risk of unexpected behaviour by utilizing \textbf{MISRA-C} lint tools to increase code reliability}
+            \resumeItemListEnd
+        \resumeSubheading
+        {Software Engineering Class Representative}
+        {Jan. 2023 -- Apr. 2023}
+        {\href{https://www.engsoc.uwaterloo.ca}{\raisebox{-0.2\height}\faExternalLink\ \brokenUL{Engineering Society}}}
+        {University of Waterloo}
+            \resumeItemListStart
+                \resumeItem{Advocated for my \textbf{150-person cohort} within the Engineering faculty by actively participating in policy debates}
+                \resumeItem{Served on the Sponsorship Allocation Committee and distributed over \textbf{\$8000} in funding to student design teams}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {University of Waterloo}{Sep. 2022 -- Apr. 2027}
+    {Bachelor of Software Engineering, Honours (BSE)}{Waterloo, Ontario}
+    \resumeItemListStart
+        \resumeItem{\textbf{cGPA: 89.6\% (3.9/4.0)}}
+        \resumeItem{\textbf{Dean's Honours}: awarded in terms 1A \& 1B for academic distinction}
+        \resumeItem{Relevant coursework: data structures and algorithms (\textbf{C/C++}), compilers (\textbf{Assembly/Scala})}
+        % \resumeItem{Class representative: Mathematics Society (1A), Engineering Society (1B), Software Engineering Society (2A)}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
